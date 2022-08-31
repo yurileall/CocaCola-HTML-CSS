@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.center {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+
+}
+
+html,body {
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-color: black;
+}
+
+header{
+    height: 200px;
+    padding: 20px 0;
+
+}
+
+.logo {
+    width: 50%;   
+}
+
+
+.menu {
+    padding-top: 30px;
+    width: 50%;
+    text-align: right;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 21px;
+    font-size: 15px;
+}
+
+section.sobre {
+    height: calc(100% - 200px);
+    position: relative;
+}
+
+.extras {
+    position: absolute;
+    bottom: -450px;
+    right: -500px;
+    width: 1075px;
+    height: 1050px;
+    border-radius: 50%;
+    background: #e51e2a;
+    
+
+}
+
+.imgs {
+    position: absolute;
+    right: 480px;
+    bottom: 420px;
+    
+
+}
+.imgs img {
+    width: 144px;
+    
+
+}
+
+.imgs .img1 {
+    transform: rotate(-15deg);
+    
+
+}
+
+.imgs .img2 {
+    transform: rotate(5deg);
+}
+
+.imgs .img3 {
+    transform: rotate(15deg);
+}
+
+.imgs .img4 {
+    transform: rotate(-15deg);
+}
+
+.texto-sobre {
+    margin-top: 50px;
+}
+
+.texto-sobre h1 {
+    font-size: 40px;
+    color: white;
+}
+
+.texto-sobre p {
+    margin: 20px 0;
+    color: white;
+    font-size: 15px;
+    max-width: 700px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    
+}
+
+.texto-sobre .button a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 25px;
+    background-color: #e51e2a;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+    border-radius: 40px;
+    transition: 0.3s ease-in-out;
+    font-size: 13px;
+}
+
+.texto-sobre .button a:hover{
+    transform: translateY(-10px);
+
+}
+
+.social-midia {
+    position: absolute;
+    bottom: 20px;
+    left: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-midia a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #222;
+    margin-left: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+}
+
+.social-midia a:hover {
+    background-color: #e51e2a;
+    transform: translateY(-10px);
+}
+
+.social-midia a img {
+    transform: scale(0.5);
+    filter: invert(1);
+}
